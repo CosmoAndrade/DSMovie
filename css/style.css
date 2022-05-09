@@ -16,10 +16,32 @@ html, body {
     background-color: var(--bg-gray);
 }
 
+h1,h2,h3,h4{
+  margin: 0;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  background-color:#4d41c0 ;
+  color:#FFF;
+  height: 60px;
+}
+
 nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+nav h1{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+nav a {
+  font-size: 12px;
+  font-weight: 400;
 }
 
 a, a:hover {
@@ -27,7 +49,11 @@ a, a:hover {
   color: unset;
 }
 
-header{
-  background-color:#4d41c0 ;
-  color:#FFF;
+.img-git{
+  display: flex;
+  align-items: center;
+}
+
+.img-git img{
+  margin-right: 10px;
 }
